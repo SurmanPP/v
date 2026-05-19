@@ -163,7 +163,6 @@ const c_common_macros = '
 	#endif
 #endif
 #ifdef __TINYC__
-	#define _Atomic volatile
 	#undef E_STRUCT_DECL
 	#undef E_STRUCT
 	#define E_STRUCT_DECL unsigned char _dummy_pad
